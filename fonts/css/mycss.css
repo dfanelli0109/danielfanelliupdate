@@ -1,0 +1,324 @@
+
+#clients1 {
+  border: 3px groove grey;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 300px){
+  #about {
+      background-color: #bf6a02;
+      height: 640px;
+  }
+}
+
+
+@media (min-width: 900px){
+  #about {
+      background-color: #bf6a02;
+      height: 700px;
+  }
+
+}
+
+
+#contact-or {
+text-align: center;
+}
+
+#book {
+  text-align: center;
+}
+
+#more {
+padding: 250px;
+text-align: center;
+}
+#cform {
+  width: 100%;
+  height: 450px;
+  margin: 0px auto 50px auto;
+  font-size: 1.4em;
+  border: white 4px solid;
+}
+
+#clientshdr {
+      padding: 20px 0px 20px 90px;
+}
+
+input {
+  color: black;
+}
+
+#button-container {
+  width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+#tel1:hover {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+
+p {
+  margin: 15px;
+  padding: 15px;
+}
+
+@media (min-width:350px){
+  #cbanner {
+    padding: 0px 0px;
+    color: #5efd70;
+  background-color: #151515;
+    background-size: cover;
+    margin-top: 35px;
+}}
+
+@media (min-width:750px){
+  #cbanner {
+    padding: 15px 0px;
+    color: #5efd70;
+  background-color: #151515;
+    background-size: cover;
+    margin-top: 5px;
+    height: 600px;
+}}
+
+@media (min-width: 300px){
+  .cl {
+  height: 300px;
+border: 4px solid black;
+
+}}
+
+@media (min-width:700px){
+  .cl{
+  height: 400px;
+border: 4px solid black;
+}}
+
+@media (min-width:900px){
+  .cl{
+  height: 550px;
+
+}}
+
+
+
+@media (max-width: 600px){
+.socbuttons {
+  width: 30%;
+  margin: 20px auto;
+}
+}
+@media (min-width: 601px){
+.socbuttons {
+  width: 30%;
+  margin: 20px auto;
+}
+}
+@media (min-width: 350px){
+#name {
+  margin: 30px 0px;
+  letter-spacing: 4px;
+  font-size: 1.2em;
+  width: 25%;
+  font-weight: bold;
+}
+#title {
+  font-size: .8em;
+  width: 25%;
+  margin-bottom: 35px;
+}
+}
+
+@media (min-width: 600px){
+#name {
+  font-size: 2.3em;
+
+}
+#title {
+  font-size: 1em;
+  margin-bottom: 75px;
+}
+}
+
+@media (min-width: 910px){
+  #name {
+    font-size: 3.5em;
+  }
+  #title {
+    font-size: 1.35em;
+  }
+}
+
+#brandname {
+  color: black;
+  font-size: 2.25em;
+  font-weight: bold;
+  border: 0px;
+  background-color: #BFBFBF;
+}
+
+
+.init {
+  font-family: 'Bowlby One SC', sans-serif;
+  color: red;
+}
+
+.navlinks:hover {
+  background-color: white;
+}
+
+.navlinks a {
+  color: black;
+}
+
+.navlinks a:hover {
+  color: #303030;
+}
+#navbar1 {
+  margin-bottom: 25px;
+  background-color: #BFBFBF;
+}
+
+#navbar1 {
+  margin-bottom: 25px;
+  background-color: #BFBFBF;
+}
+#realhealth {
+  width: 100%;
+}
+
+#hshot {
+  width: 30%;
+  height: 250px;
+
+}
+
+@media (min-width: 600px){
+#real1 {
+  height: 250px;
+  padding: 0px 120px;
+}}
+
+@media (min-width: 750px){
+#real1 {
+  height: 520px;
+  padding: 0px 100px 0px 180px ;
+}}
+
+
+#body1 {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+@media (min-width: 300px){
+  #clientpg,#biopg, #clientpg {
+    height: 400px;
+    clear: both
+  }
+}
+
+@media (min-width:900px){
+  #clientpg,#biopg, #clientpg {
+    height: 700px;
+    clear: both
+  }
+}
+
+@media (max-width: 899px){
+  #biocont {
+  background: url(../img/headshot.jpg) no-repeat center center;
+  background-size: 100% 100%;
+  height: 275px;
+  padding-bottom: 40px;
+  border: 3px solid black;
+
+}}
+
+@media (min-width: 900px){
+  #biocont {
+  background: url(../img/headshot.jpg) no-repeat center center;
+  background-size: 100% 100%;
+  height: 375px;
+  padding-bottom: 40px;
+  border: 3px solid black;
+
+}}
+
+@media (min-width: 300px){
+  #bioheader {
+    font-size: 2em;
+      padding: 20px 0px 20px 20px;
+
+  }
+}
+@media (min-width: 900px){
+  #bioheader {
+    font-size: 2em;
+      padding: 40px 0px 20px 90px;
+
+  }
+}
+
+#bio {
+  font-size: 1.2em;
+  height: auto;
+}
+
+#sect20{
+  margin-left: 20px;
+}
+
+
+@media(max-width:1300px){
+#name {
+
+      font-family: 'Cairo', sans-serif;
+      letter-spacing: 20px;
+      text-align: left;
+      width: 25%;
+          font-size: 2.5em;
+  }
+}
+
+@media(max-width:800px){
+#name {
+
+
+  font-family: 'Cairo', sans-serif;
+  letter-spacing: 4px;
+  text-align: right;
+  width: 25%;
+  /* font-size: 1.3em; */
+  padding-top: 40%;
+  }
+}
+#title {
+  font-family: 'Bitter', serif;
+  text-align: center;
+}
+
+.btnscl:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+@media(max-width: 750px){
+#idbuttons {
+   margin-left: 0px;
+}}
+
+@media(min-width: 1300px){
+#idbuttons {
+   margin-left: 25px;
+}}
+
+#secbody {
+  margin: 0px auto;
+}

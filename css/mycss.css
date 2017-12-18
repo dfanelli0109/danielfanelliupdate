@@ -1,0 +1,623 @@
+html {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.black {
+  color: black;
+}
+
+#child1 {
+  margin-top: 60px;
+}
+.body2 {
+  background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/20106729_10154681764541820_2839143726825500366_n.jpg?oh=ee227c913a44d0cfd54de7ae41d1baac&oe=5A94A5EC");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 550px;
+}
+
+#time {
+  color: black;
+}
+
+.lightblue {
+background-color: lightblue;
+}
+
+.contentang {
+  border: 3px gold groove;
+  border-radius: 40px;
+  color: navy;
+  margin: 50px 150px;
+  height: 375px;
+  overflow: auto;
+  background-color: white;
+  padding: 35px;
+}
+
+.game {
+  margin: 200px 100px 30px 100px;
+  color: black;
+}
+
+#body1 {
+  animation-name: example1;
+  animation-duration: 4s;
+  font-family: 'Archivo Black', sans-serif;
+  background-color: white;
+}
+
+.bio-title {
+  text-align: center;
+  margin: 200px 0px;
+  color: white;
+}
+#clients1 {
+  border: 3px groove grey;
+  margin-bottom: 0px;
+}
+
+#available {
+  color: rgba(199, 53, 0, 1);
+}
+
+@media (max-width:800px){
+  #contact2 {
+      height: 50px;
+      width: 100%;
+      margin: 0px 0px 20px 0px;
+      color: black;
+
+  }
+
+
+#cline {
+  animation-name: example1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  position: : relative;
+  padding 10px auto;
+  font-size: 1.7em;
+  color: white;
+}
+}
+
+@media (min-width:300px){
+#contact2 {
+    background-color: black;
+    height:60px;
+    width:100%;
+    margin: 0px 0px 20px 0px;
+    font-size: 1.25em;
+    color: white;
+}
+
+#cline {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+}
+
+@media (max-width: 649px){
+  #about {
+    position: relative;
+    height: auto;
+    width: 100%;
+      border-bottom: 4px solid black;
+      background-size: 100% 100%;
+
+
+
+  }
+
+
+#connect {
+text-align: center;
+}
+}
+
+
+#about123 {
+  width: 100%;
+}
+
+@media (min-width: 650px){
+  #about {
+      border-bottom: 4px solid black;
+      height: auto;
+      width: 100%;
+      background-size: 100% 100%;
+
+  }
+  #connect {
+  text-align: center;
+  }
+
+}
+
+
+
+
+#contact-or {
+text-align: center;
+color: black;
+}
+
+#book {
+  text-align: center;
+  color: black;
+  margin-bottom: 60px;
+}
+
+#cform {
+  width: 100%;
+  height: 475px;
+  margin: 0px auto 50px auto;
+  font-size: 1.4em;
+  border: white 4px solid;
+  text-align: center;
+}
+
+#clientshdr {
+      padding: 20px 0px 20px 90px;
+      color: black;}
+
+input {
+  color: black;
+}
+
+@media (min-width:300px){
+#button-container {
+  width: 100%;
+}
+}
+@media (min-width:900px){
+#button-container {
+  width: 100%;
+  padding-left: 20%;
+}
+}
+a:hover {
+  text-decoration: none;
+  color: #00F00;
+}
+
+#tel1:hover {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  background-color: white;
+}
+
+h3, .black {
+  margin: 0px 0px 0px 35px;
+}
+p {
+  margin: 80px 15px 0px 15px;
+  padding: 15px;
+}
+
+@media (min-width:350px){
+  #cbanner {
+    padding: 0px 0px;
+    color: black;
+   background-color: #c3c5c7;
+ }
+
+@media (min-width:750px){
+  #cbanner {
+    padding: 0px 0px;
+    color: black;
+    background-size: cover;
+    margin-top: 5px;
+    height: 600px;
+}}
+
+@media (min-width: 300px){
+  #cl {
+  height: 300px;
+border: 4px solid black;
+
+}}
+
+@media (min-width:700px){
+  #cl{
+  height: 350px;
+border: 4px solid black;
+}}
+
+@media (min-width:900px){
+  #cl{
+  height: 400px;
+
+}}
+
+
+
+@media (min-width: 250px){
+  .socbuttons {
+      width: 90%;
+      margin: 10px 5px 5px 5px;
+      display: inline-block;
+  }
+
+#socbuttons2 {
+  width: 30%;
+}
+}
+@media (min-width: 601px){
+.socbuttons {
+  margin: 20px 0% 5px 0%;
+  display: inline-block;
+  width: 20%;
+
+}
+}
+
+
+@media(max-width: 700px){
+  #name {
+     font-size: 2.0em;
+      letter-spacing: 2px;
+      text-align: left;
+      width: 100%;
+      margin-top: 20%;
+      background-color: rgba(179, 179, 179, 0.58);
+
+  }
+
+
+  #title {
+      font-family: 'Bitter', serif;
+      text-align: left;
+      font-size: 1.00em;
+      width: 100%;
+      letter-spacing: 1px;
+      color: black;
+      background-color: rgba(16, 16, 16, 0.72);
+
+  }
+}
+
+a {text-decoration: none;}
+
+@media (min-width: 701px){
+#name {
+  font-size: 4em;
+  font-family: 'Cairo', sans-serif;
+  letter-spacing: 12px;
+  text-align: left;
+color: #000;
+padding-left: 15px;
+background-color: rgba(179, 179, 179, 0.58);
+text-decoration: none;
+}
+#title {
+  font-size: 2em;
+  margin: 15px 0px 15px 0px;
+  padding: 0px;
+  text-align: left;
+  width: 100%;
+ color: white;
+
+ background-color: rgba(16, 16, 16, 0.72);
+}
+}
+
+
+
+#brandname {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bolder;
+  border: 0px;
+  background-color: black;
+}
+#navcolor {
+  background-color: black;
+}
+
+.init {
+  font-family: 'Bowlby One SC', sans-serif;
+  color: red;
+}
+
+.navlinks:hover {
+  background-color: white;
+
+}
+
+.navlinks a {
+  color: white;
+}
+
+.navlinks a:hover {
+  color: #fff;
+}
+#navbar1 {
+  margin-bottom: 25px;
+  background-color: #BFBFBF;
+}
+
+.navbar-default .navbar-nav > li > .pglink {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > .pglink:hover {
+  color: red;
+  background-color: white;
+}
+#navbar1 {
+  margin-bottom: 25px;
+  background-color: #000;
+}
+#realhealth {
+  width: 100%;
+}
+
+#hshot {
+  width: 30%;
+  max-width: 600px;
+  height: auto;
+
+}
+.ind {
+  background-color: transparent;
+}
+@media (min-width: 300px){
+  #item2 {
+  height: 280px;
+  background-color: #1c1c1c;
+}}
+
+@media (min-width:700px){
+  #item2{
+  height: 330px;
+  background-color: #1c1c1c;
+}}
+
+@media (min-width:900px){
+  #item2{
+  height: 430px;
+  background-color: #1c1c1c;
+}}
+
+@media (min-width: 300px){
+  #item1 {
+  height: 280px;
+background-color: #1c1c1c;
+}}
+
+@media (min-width:700px){
+  #item1{
+  height: 330px;
+  background-color: #1c1c1c;
+}}
+
+@media (min-width:900px){
+  #item1{
+  height: 430px;
+  background-color: #1c1c1c;
+}}
+
+@media (min-width: 300px){
+  #more {
+height: 230px;
+    width: 100%;
+    margin: 0px auto;
+    background-color: white;
+    color: black;
+text-align: center;
+padding-top: 100px;
+border: 4px solid black;
+}}
+
+@media (min-width:700px){
+  #more{
+height: 280px;
+    width: 100%;
+    margin: 0px auto;
+background-color: white;
+color: black;
+text-align: center;
+padding-top: 150px;
+border: 4px solid black;
+}}
+
+@media (min-width:900px){
+  #more{
+    height: 380px;
+    width: 100%;
+    margin: 0px auto;
+background-color: white;
+text-align: center;
+padding-top: 200px;
+border: 4px solid black;
+}}
+@media (min-width: 300px){
+  #real1 {
+  height: 230px;
+  width: 100%;
+  margin: 0px auto;
+border: 4px solid black;
+
+}}
+
+@media (min-width:700px){
+  #real1{
+  height: 280px;
+  width: 100%;
+  margin: 0px auto;
+border: 4px solid black;
+}}
+
+@media (min-width:900px){
+  #real1{
+  height: 380px;
+width: 100%;
+margin: 0px auto;
+border: 4px solid black;
+}}
+
+
+@media (max-width: 899px){
+  #clientpg,#biopg, #clientpg, #workspg {
+    min-height: 100%;
+    padding-top: 30px;
+    clear: both;
+
+  }
+}
+
+
+
+#proj {
+  margin-top: 30px;
+}
+#clientpg {
+  background-color: #DBAD21;
+  color: black;
+}
+@media (min-width:900px){
+  #clientpg,#biopg, #clientpg,#cbanner, #workspg {
+    height:auto;
+    clear: both
+  }
+}
+
+.image {
+  background-image: url('intro-bg.jpg') no-repeat cover;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+#workspg {
+background-color: red;
+}
+
+#myCarousel {
+  max-height: 800px;
+    width: 100%;
+}
+#biopg {
+  background-color: rgba(23, 23, 23, 1);
+  color: white;
+  min-height: 100%;
+}
+
+#headshot1 {
+    width: 100%;
+    height: auto;
+    border: 3px groove black;
+}
+
+@media (max-width: 550px){
+  #biocont {
+  padding-bottom: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+}}
+
+@media (min-width: 551px){
+  #biocont {
+    padding-left: 0px;
+    padding-right: 0px;
+  padding-bottom: 40px;
+
+}}
+@media (min-width: 900px){
+  #biocont {
+  background-size: 100% 100%;
+  height: 550px;
+  padding-bottom: 40px;
+
+
+}}
+
+@media (min-width: 300px){
+  #bioheader, #worksheader {
+    font-size: 2em;
+      padding: 20px 0px 20px 20px;
+
+  }
+}
+@media (min-width: 900px){
+  #bioheader, #worksheader, #clientshdr {
+    font-size: 2em;
+      padding: 70px 0px 10px 30px;
+
+  }
+}
+
+@media (min-width: 300px){
+#bio {
+  font-size: 1.2em;
+  height: auto;
+  margin-top: 20px;
+}
+}
+
+@media (min-width: 700px){
+#bio {
+  font-size: 1.2em;
+  height: auto;
+  margin-top: -60px;
+}
+
+#sect20{
+  margin-left: 20px;
+}
+}
+
+@media (min-width:701px){
+#btnscl {
+  padding: 10px;
+  font-size: 10px;
+  margin: 20px 20px 5px 20px;
+  width: 100%;
+}
+#btnscl:hover {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 10px;
+}
+}
+
+@media (max-width:700px){
+  #btnscl {
+      padding: 10px;
+      font-size: 10px;
+      margin: 20px 20px 5px 20px;
+  }
+#btnscl:hover {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 10px;
+}
+}
+
+@media(max-width: 700px){
+#idbuttons {
+   margin-left: 0px;
+}}
+
+@media(min-width: 1300px){
+#idbuttons {
+   margin-left: 25px;
+}}
+
+#secbody {
+  margin: 0px auto;
+}
+
+ #black {
+   background-color: #000;
+ }

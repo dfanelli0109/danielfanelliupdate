@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Web Developer">
+  <meta name="author" content="Daniel Fanelli">
+<meta property="og:image" content="http://danielfanelli.com/img/danielfanelli.jpg"/>
+<meta property='og:title' content="Daniel Fanelli|Web Developer|Sacramento, CA" />
+<meta property='og:description' content="FULL STACK WEB DEVELOPER"/>
+<meta property='og:url' content=""//www.danielfanelli.com" />
+
+
+  <title>Daniel's Page</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/landing-page.css" rel="stylesheet">
+  <link href="css/mycss.css" rel="stylesheet">
+
+</head>
+<body class="body2" ng-controller="Main as clr">
+  <nav class="navbar navbar-default navbar-fixed-top topnav" id="navbar1" role="navigation">
+      <div class="container topnav">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand topnav" id="brandname" href="https://www.linkedin.com/in/daniel-fanelli-4b186232/"><span class="init"> DF </span>|<span id="title2">Full Stack Web Developer</span></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="navli navlinks" id="navcolor">
+                      <a class="pglink" href="index.html">Back to the Home Page</a>
+                  </li>
+
+                  <li class="navli navlinks" id="navcolor">
+                      <a class="pglink" id="tel1" href="tel:4076150533"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Call Daniel</a>
+                    </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+  </nav>
+  <div class="game">
+<h1 class="game">A REAL MAN'S GAME!! NO sugar coating here...</h1>
+
+<div>
+<h3>Welcome to the desert of AZ for a possibly deadly game of <br>rock, paper, scissors!</h3>
+I choose (rock paper or scissors)<input type="text" id="userchoice">&nbsp &nbsp <button id="submit" onclick="play()">Submit</button> <br>
+<br>Computer Chooses:<p id="bot"></p><p id="result"></p>
+
+</div>
+    <script src="rockpaperscissors.js"></script>
+</div>
+</body>
+</html>

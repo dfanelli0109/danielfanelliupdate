@@ -1,0 +1,543 @@
+
+#clients1 {
+  border: 3px groove grey;
+  margin-bottom: 40px;
+}
+
+
+@media (max-width:800px){
+  #contact2 {
+      background-color: black;
+      height: 50px;
+      width: 100%;
+      margin: 0px 0px 20px 0px;
+}
+  }
+
+
+  @media(min-width: 800%){
+    #bio-title {padding: 200px 0px 0px 0px;
+      color: black;
+      text-align: center;
+  }
+  #bio-title2 {padding: 50px 0px;
+}}
+
+#cline {
+  animation-name: example1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  position: : relative;
+  padding 10px auto;
+  font-size: 1.7em;
+  color: white;
+}
+}
+
+@media (min-width:801px){
+#contact2 {
+    background-color: black;
+    height:60px;
+    width:100%;
+    margin: 0px 0px 20px 0px;
+    font-size: 2em;
+    color: white;
+}
+
+#cline {
+  animation-name: example1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+}
+
+@media (min-width: 300px){
+  #about {
+    position: relative;
+      height: 640px;
+      border-bottom: 4px solid black;
+      background-size: 100% 100%;
+
+
+
+  }
+
+
+#connect {
+text-align: center;
+}
+}
+
+#copy {
+  text-align: center;
+}
+
+@media (min-width: 650px){
+  #about {
+      border-bottom: 4px solid black;
+      height: 700px;
+      background-size: 100% 100%;
+
+  }
+  #connect {
+  text-align: center;
+  }
+
+}
+
+
+
+
+#contact-or {
+text-align: center;
+color: black;
+}
+
+#book {
+  text-align: center;
+  color: black;
+  margin-bottom: 60px;
+}
+
+#cform {
+  width: 100%;
+  height: 475px;
+  margin: 0px auto 50px auto;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+#clientshdr {
+      padding: 20px 0px 20px 90px;
+      color: black;}
+
+input {
+  color: black;
+}
+
+@media (min-width:300px){
+#button-container {
+  width: 100%;
+}
+}
+@media (min-width:900px){
+#button-container {
+  width: 100%;
+  padding-left: 20%;
+}
+}
+a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+#tel1:hover {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  background-color: white;
+}
+
+p {
+  margin: 15px;
+  padding: 15px;
+}
+
+@media (min-width:350px){
+  #cbanner {
+    padding: 0px 0px;
+    color: black;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}}
+
+@media (min-width:750px){
+  #cbanner {
+    padding: 15px 0px;
+    color: black;
+    background-size: cover;
+    margin-top: 5px;
+    height: 600px;
+}}
+
+@media (min-width: 300px){
+  #cl {
+  height: 300px;
+border: 4px solid black;
+
+}}
+
+@media (min-width:700px){
+  #cl{
+  height: 350px;
+border: 4px solid black;
+}}
+
+@media (min-width:900px){
+  #cl{
+  height: 400px;
+
+}}
+
+
+
+@media (max-width: 600px){
+  .socbuttons {
+      width: 80%;
+      margin: 10px 20px 5px 20px;
+      display: inline-block;
+  }
+}
+@media (min-width: 601px){
+.socbuttons {
+  margin: 20px 0% 5px 0%;
+  display: inline-block;
+  width: 35%;
+
+}
+}
+
+
+@media(max-width: 700px){
+  #name {
+     font-size: 2.0em;
+      letter-spacing: 2px;
+      text-align: left;
+      width: 100%;
+      margin-top: 20%;
+      background-color: rgba(179, 179, 179, 0.58);
+
+  }
+
+
+  #title {
+      font-family: 'Bitter', serif;
+      text-align: left;
+      font-size: 1.25em;
+      width: 100%;
+      letter-spacing: 2px;
+      color: black;
+      color: white;
+      background-color: rgba(16, 16, 16, 0.72);
+
+  }
+}
+
+@media (min-width: 701px){
+#name {
+  font-size: 4em;
+  font-family: 'Cairo', sans-serif;
+  letter-spacing: 12px;
+  text-align: left;
+color: #000;
+padding-left: 15px;
+background-color: rgba(179, 179, 179, 0.58);
+
+}
+#title {
+  font-size: 2em;
+  margin-bottom: 15px;
+  text-align: left;
+  width: 100%;
+ padding-left: 15px;
+ color: white;
+
+ background-color: rgba(16, 16, 16, 0.72);
+}
+}
+
+
+
+#brandname {
+  color: white;
+  font-size: 2.0em;
+  font-weight: bolder;
+  border: 0px;
+  background-color: black;
+}
+#navcolor {
+  background-color: black;
+}
+
+.init {
+  font-family: 'Bowlby One SC', sans-serif;
+  color: #DBAD21;
+}
+
+.navlinks:hover {
+  background-color: white;
+}
+
+.navlinks a {
+  color: white;
+}
+
+.navlinks a:hover {
+  color: #fff;
+}
+#navbar1 {
+  margin-bottom: 25px;
+  background-color: #BFBFBF;
+}
+
+.navbar-default .navbar-nav > li > .pglink {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > .pglink:hover {
+  color: yellow;
+}
+#navbar1 {
+  margin-bottom: 25px;
+  background-color: #000;
+}
+#realhealth {
+  width: 100%;
+}
+
+#hshot {
+  width: 30%;
+  height: auto;
+
+}
+.ind {
+  background-color: transparent;
+}
+@media (min-width: 300px){
+  #item2 {
+  height: 280px;
+  background-color: #1c1c1c;
+}}
+
+@media (min-width:700px){
+  #item2{
+  height: 330px;
+  background-color: #1c1c1c;
+}}
+
+@media (min-width:900px){
+  #item2{
+  height: 430px;
+  background-color: #1c1c1c;
+}}
+
+@media (min-width: 300px){
+  #item1 {
+  height: 280px;
+background-color: #1c1c1c;
+}}
+
+@media (min-width:700px){
+  #item1{
+  height: 330px;
+  background-color: #1c1c1c;
+}}
+
+@media (min-width:900px){
+  #item1{
+  height: 430px;
+  background-color: #1c1c1c;
+}}
+
+@media (min-width: 300px){
+  #more {
+height: 230px;
+    width: 100%;
+    margin: 0px auto;
+    background-color: white;
+    color: black;
+text-align: center;
+padding-top: 100px;
+border: 4px solid black;
+}}
+
+@media (min-width:700px){
+  #more{
+height: 280px;
+    width: 100%;
+    margin: 0px auto;
+background-color: white;
+color: black;
+text-align: center;
+padding-top: 150px;
+border: 4px solid black;
+}}
+
+@media (min-width:900px){
+  #more{
+    height: 380px;
+    width: 100%;
+    margin: 0px auto;
+background-color: white;
+text-align: center;
+padding-top: 200px;
+border: 4px solid black;
+}}
+@media (min-width: 300px){
+  #real1 {
+  height: 230px;
+  width: 100%;
+  margin: 0px auto;
+border: 4px solid black;
+
+}}
+
+@media (min-width:700px){
+  #real1{
+  height: 280px;
+  width: 100%;
+  margin: 0px auto;
+border: 4px solid black;
+}}
+
+@media (min-width:900px){
+  #real1{
+  height: 380px;
+width: 100%;
+margin: 0px auto;
+border: 4px solid black;
+}}
+
+#body1 {
+  animation-name: example1;
+  animation-duration: 4s;
+  font-family: 'Archivo Black', sans-serif;
+  background-color: #DCDCDC;
+}
+
+@media (min-width: 300px){
+  #clientpg,#biopg, #clientpg {
+    height: 450px;
+    padding-top: 30px;
+    clear: both;
+
+  }
+}
+
+#clientpg {
+  background-color: #DBAD21;
+  color: black;
+}
+@media (min-width:900px){
+  #clientpg,#biopg, #clientpg,#cbanner {
+  padding-top: 30px;
+    height: 720px;
+    clear: both
+  }
+}
+
+#headshot1 {
+    width: 100%;
+    height: auto;
+    border: 3px groove black;
+}
+
+@media (max-width: 550px){
+  #biocont {
+  background-size: 100% 100%;
+  padding-bottom: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+}}
+
+@media (min-width: 551px){
+  #biocont {
+    padding-left: 0px;
+    padding-right: 0px;
+  padding-bottom: 40px;
+
+}}
+@media (min-width: 900px){
+  #biocont {
+  background-size: 100% 100%;
+  height: 550px;
+  padding-bottom: 40px;
+
+
+}}
+
+@media (min-width: 300px){
+  #bioheader {
+    font-size: 2em;
+      padding: 20px 0px 20px 20px;
+
+  }
+}
+@media (min-width: 900px){
+  #bioheader {
+    font-size: 2em;
+      padding: 40px 0px 20px 90px;
+
+  }
+}
+
+@media (min-width: 300px){
+#bio {
+  font-size: 1.2em;
+  height: auto;
+  margin-top: 20px;
+}
+}
+
+@media (min-width: 700px){
+#bio {
+  font-size: 1.2em;
+  height: auto;
+  margin-top: -60px;
+}
+
+#sect20{
+  margin-left: 20px;
+}
+}
+
+@media (min-width:701px){
+#btnscl {
+  padding: 10px;
+  font-size: 10px;
+  margin: 20px 20px 5px 20px;
+  width: 100%;
+}
+#btnscl:hover {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 10px;
+}
+}
+
+@media (max-width:700px){
+  #btnscl {
+      padding: 10px;
+      font-size: 10px;
+      margin: 20px 20px 5px 20px;
+      width: 100%;
+  }
+#btnscl:hover {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 10px;
+}
+}
+
+@media(max-width: 700px){
+#idbuttons {
+   margin-left: 0px;
+}}
+
+@media(min-width: 1300px){
+#idbuttons {
+   margin-left: 25px;
+}}
+
+#secbody {
+  margin: 0px auto;
+}
